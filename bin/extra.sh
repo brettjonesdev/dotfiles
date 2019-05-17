@@ -35,6 +35,9 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
+# (Need this or sed explodes in the git completion)
+export LC_CTYPE=C 
+export LANG=C
 if [ -f `brew --prefix`/etc/bash_completion.d/git-completion.bash ]; then
 . `brew --prefix`/etc/bash_completion.d/git-completion.bash
 fi

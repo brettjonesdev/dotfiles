@@ -14,12 +14,6 @@ alias rmn='rm -rf node_modules'
 
 
 
-
-
-
-
-
-
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
 alias ...="cd ../.."
