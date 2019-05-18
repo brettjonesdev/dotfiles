@@ -2,8 +2,6 @@
 
 ## GitHub stuff ##
 
-export HOMEBREW_GITHUB_API_TOKEN=8a71ada0345ef495b42865ef72c8bd257287511c
-
 # source ~/.git-completion.bash
 # eval "$(grunt --completion=bash)"
 
