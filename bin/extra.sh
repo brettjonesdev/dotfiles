@@ -1,10 +1,6 @@
 # export PS1="\u@\h \w$ "
 
-## GitHub stuff ##
-
-# source ~/.git-completion.bash
-# eval "$(grunt --completion=bash)"
-
+## Git config ##
 GIT_AUTHOR_NAME="Brett Jones"
 GIT_COMMITTER_NAME="$"
 git config --global user.name "$GIT_AUTHOR_NAME"
@@ -12,9 +8,6 @@ GIT_AUTHOR_EMAIL="brettjonesdev@gmail.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
-
-
-## Random stuff ##
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
