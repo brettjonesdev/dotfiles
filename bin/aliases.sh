@@ -1,19 +1,16 @@
-## Brett's HS aliases
+## Brett's aliases
 
 alias sb='npm run storybook'
 alias doover='rm -rf node_modules && npm install && npm start'
 alias gc='git checkout'
 alias gs='git status'
 alias gp='git pull'
-alias hs='cd $HS_PROJECT_DIRECTORY/hs-app'
-alias ss='cd $HS_PROJECT_DIRECTORY/sumo-support'
-alias hsds='cd $HS_PROJECT_DIRECTORY/hsds-react'
+alias ru='cd $RUNE_DIR'
+alias rune='cd $RUNE_DIR'
+alias js='cd $RUNE_DIR/js-mono'
 alias ns='npm start'
 alias nt='npm run test'
 alias rmn='rm -rf node_modules'
-
-
-
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

@@ -24,3 +24,7 @@ export MANPAGER='less -X';
 
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
+
+
+# Rune
+export RUNE_DIR=~/dev/rune
