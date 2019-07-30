@@ -2,5 +2,5 @@
 
 export AWS_PROFILE=default
 
-# Open JS monorepo directory
-js
+# Open JS monorepo carrot-web directory
+cw
